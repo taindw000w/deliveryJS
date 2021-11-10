@@ -8,6 +8,7 @@ const parthners = () => {
         console.log(err);
     })
 
+    const modalAuth = document.querySelector('.modal-auth');
     const cardRestauranst = document.querySelector('.cards-restaurants');
 
     const renderItems = (data) => {
@@ -51,8 +52,7 @@ const parthners = () => {
                     })
             cardRestauranst.append(a);       
         })
-    }  
-
+    } 
 }
 
 parthners();
