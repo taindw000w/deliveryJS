@@ -71,8 +71,6 @@ const menu = () => {
     } else {
         window.location.href = '/';
     }
-
-
 }
 
 menu();
